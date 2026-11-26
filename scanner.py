@@ -1,3 +1,4 @@
+
 from pathlib import Path
 import sys
 
@@ -16,6 +17,7 @@ SUSPICIOUS_WORDS = [
     b"password",
     b"token",
     b"api_key",
+    b"confidential",
 ]
 
 
